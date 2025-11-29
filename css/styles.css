@@ -816,7 +816,7 @@ a {
   padding-left: 16px;
 }
 
-.footer .container {
+.end-container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -894,4 +894,59 @@ a {
 .icon-send {
   fill: #ffffff;
   margin-left: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .end-container {
+    display: flex;
+    padding-right: 164px;
+    padding-left: 108px;
+    align-items: baseline;
+    justify-content: flex-start;
+    text-align: left;
+    gap: 72px 24px;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .footer-logo-text {
+    margin-bottom: 70px;
+  }
+
+  .logo-footer-link {
+    margin-bottom: 16px;
+    font-family: Raleway, sans-serif;
+    text-align: center;
+    display: inline-block;
+  }
+
+  .footer-text {
+    max-width: 288px;
+  }
+
+  .footer-social-links {
+    margin-bottom: 72px;
+  }
+
+  .text-social-media {
+    text-align: left;
+  }
+
+  .social-footer-list {
+    display: flex;
+    gap: 16px;
+  }
+
+  .subscribe-form {
+    display: flex;
+    gap: 24px;
+  }
+
+  .text-field-subscribe {
+    width: 264px;
+  }
+
+  .submit-button {
+    margin-top: 0px;
+  }
 }
